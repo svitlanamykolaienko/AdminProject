@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FirstSuit" verbose="1" >
+    <test name="FirstTest">
+        <classes>
+            <class name="com.dice.LoginTest">
+                <methods>
+                    <exclude name = "positiveLogInTest"></exclude>
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+
+</suite>

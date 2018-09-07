@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="36528" started-at="2018-09-07T09:02:04Z" finished-at="2018-09-07T09:02:40Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="36528" started-at="2018-09-07T09:02:04Z" finished-at="2018-09-07T09:02:40Z">
+      <class name="com.dice.FirstTest">
+        <test-method status="PASS" signature="methodSetUp()[pri:0, instance:com.dice.FirstTest@64616ca2]" name="methodSetUp" is-config="true" duration-ms="2763" started-at="2018-09-07T09:02:09Z" finished-at="2018-09-07T09:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method status="PASS" signature="firstTestMethod()[pri:0, instance:com.dice.FirstTest@64616ca2]" name="firstTestMethod" duration-ms="26905" started-at="2018-09-07T09:02:12Z" finished-at="2018-09-07T09:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestMethod -->
+        <test-method status="PASS" signature="methodTearDown()[pri:0, instance:com.dice.FirstTest@64616ca2]" name="methodTearDown" is-config="true" duration-ms="1205" started-at="2018-09-07T09:02:39Z" finished-at="2018-09-07T09:02:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- com.dice.FirstTest -->
+      <class name="com.dice.SecondTest">
+        <test-method status="PASS" signature="methodSetUp()[pri:0, instance:com.dice.SecondTest@3b81a1bc]" name="methodSetUp" is-config="true" duration-ms="4399" started-at="2018-09-07T09:02:04Z" finished-at="2018-09-07T09:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method status="PASS" signature="secondTestMethod()[pri:0, instance:com.dice.SecondTest@3b81a1bc]" name="secondTestMethod" duration-ms="370" started-at="2018-09-07T09:02:08Z" finished-at="2018-09-07T09:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTestMethod -->
+        <test-method status="PASS" signature="methodTearDown()[pri:0, instance:com.dice.SecondTest@3b81a1bc]" name="methodTearDown" is-config="true" duration-ms="857" started-at="2018-09-07T09:02:08Z" finished-at="2018-09-07T09:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- com.dice.SecondTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
