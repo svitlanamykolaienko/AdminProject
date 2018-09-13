@@ -1,13 +1,32 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="FirstSuit" verbose="1" >
-    <test name="FirstTest">
+<suite name="FirstTestSuite" parallel="tests" thread-count="4">
+    <listeners>
+        <listener class-name="stage.nur.base.TestListener"></listener>
+    </listeners>
+    <test name="LogInTest-FF">
+        <parameter name="browser"  value="firefox"/>
+        <groups>
+            <run>
+                <include name="positive"></include>
+                <include name="negative"></include>
+            </run>
+        </groups>
         <classes>
-            <class name="com.dice.LoginTest">
-                <methods>
-                    <exclude name = "positiveLogInTest"></exclude>
-                </methods>
-
+            <class name="stage.nur.LogInTest">
+            </class>
+        </classes>
+    </test>
+    <test name="LogInTest-CH">
+        <parameter name="browser"  value="chrome"/>
+        <groups>
+            <run>
+                <include name="positive"></include>
+                <include name="negative"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="stage.nur.LogInTest">
             </class>
         </classes>
     </test>
