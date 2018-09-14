@@ -29,16 +29,16 @@
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
-              <span class="suite-name border-skipped">Surefire suite</span>
+            <a href="#" panel-name="suite-FirstTestSuite" class="navigator-link">
+              <span class="suite-name border-passed">FirstTestSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
-                    <span>[unset file name]</span>
+                  <a href="#" panel-name="test-xml-FirstTestSuite" class="navigator-link ">
+                    <span>testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" panel-name="testlist-FirstTestSuite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
-                    <span>0 groups</span>
+                  <a href="#" panel-name="group-FirstTestSuite" class="navigator-link ">
+                    <span>3 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                  <a href="#" panel-name="times-FirstTestSuite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                  <a href="#" panel-name="reporter-FirstTestSuite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                  <a href="#" panel-name="ignored-methods-FirstTestSuite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                  <a href="#" panel-name="chronological-FirstTestSuite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,45 +91,46 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,  1 skipped,  3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods skipped suite-Surefire_suite"> (hide)</a> <!-- hide-methods skipped suite-Surefire_suite -->
-                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods skipped suite-Surefire_suite"> (show)</a> <!-- show-methods skipped suite-Surefire_suite -->
-                    </span>
-                    <div class="method-list-content skipped suite-Surefire_suite">
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.dice.LoginTest" hash-for-method="negativeTest">negativeTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Surefire_suite -->
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
-                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-FirstTestSuite" class="hide-methods passed suite-FirstTestSuite"> (hide)</a> <!-- hide-methods passed suite-FirstTestSuite -->
+                      <a href="#" panel-name="suite-FirstTestSuite" class="show-methods passed suite-FirstTestSuite"> (show)</a> <!-- show-methods passed suite-FirstTestSuite -->
                     </span>
-                    <div class="method-list-content passed suite-Surefire_suite">
+                    <div class="method-list-content passed suite-FirstTestSuite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.dice.FirstTest" hash-for-method="firstTestMethod">firstTestMethod</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirstTestSuite" title="stage.nur.LogInTest" class="method navigator-link" hash-for-method="negativeTest({no=1, description=invalid email, password=P@sword1, email=admin@gmail.net})">negativeTest({no=1, description=invalid email, password=P@sword1, email=admin@gmail.net})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.dice.LoginTest" hash-for-method="positiveTest">positiveTest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirstTestSuite" title="stage.nur.LogInTest" class="method navigator-link" hash-for-method="negativeTest({no=2, description=invalid password, password=P@sword5, email=admin@gmail.com})">negativeTest({no=2, description=invalid password, password=P@sword5, email=admin@gmail.com})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.dice.SecondTest" hash-for-method="secondTestMethod">secondTestMethod</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirstTestSuite" title="stage.nur.LogInTest" class="method navigator-link" hash-for-method="negativeTest({no=2, description=invalid password, password=P@sword5, email=admin@gmail.com})">negativeTest({no=2, description=invalid password, password=P@sword5, email=admin@gmail.com})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirstTestSuite" title="stage.nur.LogInTest" class="method navigator-link" hash-for-method="negativeTest({no=1, description=invalid email, password=P@sword1, email=admin@gmail.net})">negativeTest({no=1, description=invalid email, password=P@sword1, email=admin@gmail.net})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirstTestSuite" title="stage.nur.LogInTest" class="method navigator-link" hash-for-method="positiveTest">positiveTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirstTestSuite" title="stage.nur.LogInTest" class="method navigator-link" hash-for-method="positiveTest">positiveTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FirstTestSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -140,51 +141,52 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
-          <div class="suite-Surefire_suite-class-skipped">
+        <div panel-name="suite-FirstTestSuite" class="panel FirstTestSuite">
+          <div class="suite-FirstTestSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.dice.LoginTest</span>
+              <img src="passed.png"/>
+              <span class="class-name">stage.nur.LogInTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="negativeTest">
-                  </a> <!-- negativeTest -->
+                  <a name="negativeTest({no=1, description=invalid email, password=P@sword1, email=admin@gmail.net})">
+                  </a> <!-- negativeTest({no=1, description=invalid email, password=P@sword1, email=admin@gmail.net}) -->
                   <span class="method-name">negativeTest</span>
-                  <div class="stack-trace">java.lang.RuntimeException: java.lang.RuntimeException: File src/test/resources/test_data/LoginTest_negativeTest.csv was not found.
-[Ljava.lang.StackTraceElement;@741a8937
-Caused by: java.lang.RuntimeException: File src/test/resources/test_data/LoginTest_negativeTest.csv was not found.
-[Ljava.lang.StackTraceElement;@741a8937
-	at com.dice.base.CsvDataProvider.provideData(CsvDataProvider.java:35)
-	... 27 more
-... Removed 35 stack frames
-</div> <!-- stack-trace -->
+                  <span class="parameters">({no=1, description=invalid email, password=P@sword1, email=admin@gmail.net})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-skipped -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.dice.SecondTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="secondTestMethod">
-                  </a> <!-- secondTestMethod -->
-                  <span class="method-name">secondTestMethod</span>
+                  <a name="negativeTest({no=2, description=invalid password, password=P@sword5, email=admin@gmail.com})">
+                  </a> <!-- negativeTest({no=2, description=invalid password, password=P@sword5, email=admin@gmail.com}) -->
+                  <span class="method-name">negativeTest</span>
+                  <span class="parameters">({no=2, description=invalid password, password=P@sword5, email=admin@gmail.com})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.dice.LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeTest({no=2, description=invalid password, password=P@sword5, email=admin@gmail.com})">
+                  </a> <!-- negativeTest({no=2, description=invalid password, password=P@sword5, email=admin@gmail.com}) -->
+                  <span class="method-name">negativeTest</span>
+                  <span class="parameters">({no=2, description=invalid password, password=P@sword5, email=admin@gmail.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeTest({no=1, description=invalid email, password=P@sword1, email=admin@gmail.net})">
+                  </a> <!-- negativeTest({no=1, description=invalid email, password=P@sword1, email=admin@gmail.net}) -->
+                  <span class="method-name">negativeTest</span>
+                  <span class="parameters">({no=1, description=invalid email, password=P@sword1, email=admin@gmail.net})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveTest">
+                  </a> <!-- positiveTest -->
+                  <span class="method-name">positiveTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="positiveTest">
@@ -193,164 +195,243 @@ Caused by: java.lang.RuntimeException: File src/test/resources/test_data/LoginTe
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.dice.FirstTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="firstTestMethod">
-                  </a> <!-- firstTestMethod -->
-                  <span class="method-name">firstTestMethod</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
-        </div> <!-- panel Surefire_suite -->
-        <div panel-name="test-xml-Surefire_suite" class="panel">
+          </div> <!-- suite-FirstTestSuite-class-passed -->
+        </div> <!-- panel FirstTestSuite -->
+        <div panel-name="test-xml-FirstTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/svitlanamykolaienko/Automation/Automation/src/test/resources/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
-  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;FirstTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;stage.nur.base.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;LogInTest-FF&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;positive&quot;/&gt;
+        &lt;include name=&quot;negative&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.dice.SecondTest&quot;/&gt;
-      &lt;class name=&quot;com.dice.LoginTest&quot;/&gt;
-      &lt;class name=&quot;com.dice.FirstTest&quot;/&gt;
+      &lt;class name=&quot;stage.nur.LogInTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Surefire test --&gt;
-&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+  &lt;/test&gt; &lt;!-- LogInTest-FF --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;LogInTest-CH&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;positive&quot;/&gt;
+        &lt;include name=&quot;negative&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;stage.nur.LogInTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LogInTest-CH --&gt;
+&lt;/suite&gt; &lt;!-- FirstTestSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Surefire_suite" class="panel">
+        <div panel-name="testlist-FirstTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Surefire suite</span>
+            <span class="header-content">Tests for FirstTestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (3 classes)</span>
+                <span class="test-name">LogInTest-FF (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LogInTest-CH (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Surefire_suite" class="panel">
+        <div panel-name="group-FirstTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Surefire suite</span>
+            <span class="header-content">Groups for FirstTestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">broken</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">negativeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">negative</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">negativeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">positive</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">positiveTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Surefire_suite" class="panel">
+        <div panel-name="times-FirstTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Surefire suite</span>
+            <span class="header-content">Times for FirstTestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Surefire_suite');
-function tableData_Surefire_suite() {
+suiteTableInitFunctions.push('tableData_FirstTestSuite');
+function tableData_FirstTestSuite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'positiveTest')
-data.setCell(0, 2, 'com.dice.LoginTest')
-data.setCell(0, 3, 26157);
+data.setCell(0, 1, 'negativeTest')
+data.setCell(0, 2, 'stage.nur.LogInTest')
+data.setCell(0, 3, 8253);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'firstTestMethod')
-data.setCell(1, 2, 'com.dice.FirstTest')
-data.setCell(1, 3, 22104);
+data.setCell(1, 1, 'negativeTest')
+data.setCell(1, 2, 'stage.nur.LogInTest')
+data.setCell(1, 3, 7608);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'secondTestMethod')
-data.setCell(2, 2, 'com.dice.SecondTest')
-data.setCell(2, 3, 386);
+data.setCell(2, 1, 'positiveTest')
+data.setCell(2, 2, 'stage.nur.LogInTest')
+data.setCell(2, 3, 7407);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'negativeTest')
-data.setCell(3, 2, 'com.dice.LoginTest')
-data.setCell(3, 3, 0);
-window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+data.setCell(3, 1, 'positiveTest')
+data.setCell(3, 2, 'stage.nur.LogInTest')
+data.setCell(3, 3, 6203);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'negativeTest')
+data.setCell(4, 2, 'stage.nur.LogInTest')
+data.setCell(4, 3, 6150);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'negativeTest')
+data.setCell(5, 2, 'stage.nur.LogInTest')
+data.setCell(5, 3, 6141);
+window.suiteTableData['FirstTestSuite']= { tableData: data, tableDiv: 'times-div-FirstTestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 48 seconds</span>
-              <div id="times-div-Surefire_suite">
-              </div> <!-- times-div-Surefire_suite -->
+              <span class="suite-total-time">Total running time: 41 seconds</span>
+              <div id="times-div-FirstTestSuite">
+              </div> <!-- times-div-FirstTestSuite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Surefire_suite" class="panel">
+        <div panel-name="reporter-FirstTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Surefire suite</span>
+            <span class="header-content">Reporter output for FirstTestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+        <div panel-name="ignored-methods-FirstTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Surefire_suite" class="panel">
+        <div panel-name="chronological-FirstTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.dice.SecondTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">methodSetUp</span>
+              <div class="chronological-class-name">stage.nur.LogInTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@1eb5174b)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">secondTestMethod</span>
-                <span class="method-start">3724 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">methodTearDown</span>
-                <span class="method-start">4111 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.dice.LoginTest</div> <!-- chronological-class-name -->
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@c333c60)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">methodSetUp</span>
-                <span class="method-start">4998 ms</span>
+                <span class="method-name">methodSetUp(firefox)</span>
+                <span class="method-start">192 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetUp(chrome)</span>
+                <span class="method-start">194 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">positiveTest</span>
-                <span class="method-start">7497 ms</span>
+                <span class="method-start">3301 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">positiveTest</span>
+                <span class="method-start">8766 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">methodTearDown</span>
-                <span class="method-start">33655 ms</span>
+                <span class="method-start">10709 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.dice.FirstTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">methodSetUp</span>
-                <span class="method-start">34523 ms</span>
+                <span class="method-name">methodSetUp(chrome)</span>
+                <span class="method-start">10863 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">firstTestMethod</span>
-                <span class="method-start">36906 ms</span>
+                <span class="method-name">negativeTest({no=1, description=invalid email, password=P@sword1, email=admin@gmail.net})</span>
+                <span class="method-start">12030 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">methodTearDown</span>
-                <span class="method-start">59010 ms</span>
+                <span class="method-start">14969 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetUp(firefox)</span>
+                <span class="method-start">16066 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTearDown</span>
+                <span class="method-start">18181 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetUp(chrome)</span>
+                <span class="method-start">18261 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeTest({no=2, description=invalid password, password=P@sword5, email=admin@gmail.com})</span>
+                <span class="method-start">19488 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeTest({no=1, description=invalid email, password=P@sword1, email=admin@gmail.net})</span>
+                <span class="method-start">22480 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTearDown</span>
+                <span class="method-start">27096 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTearDown</span>
+                <span class="method-start">28621 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">methodSetUp(firefox)</span>
+                <span class="method-start">29428 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeTest({no=2, description=invalid password, password=P@sword5, email=admin@gmail.com})</span>
+                <span class="method-start">34404 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">methodTearDown</span>
+                <span class="method-start">42659 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

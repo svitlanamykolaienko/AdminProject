@@ -1,5 +1,7 @@
-/home/svitlanamykolaienko/Automation/Automation/src/main/java/com/dice/pages/LogInPage.java
-/home/svitlanamykolaienko/Automation/Automation/src/main/java/com/dice/base/BasePageObject.java
-/home/svitlanamykolaienko/Automation/Automation/src/main/java/com/dice/pages/ProfilePage.java
-/home/svitlanamykolaienko/Automation/Automation/src/main/java/com/dice/base/CsvDataProvider.java
-/home/svitlanamykolaienko/Automation/Automation/src/main/java/com/dice/base/BaseTest.java
+/home/svitlanamykolaienko/Automation/Automation/src/main/java/stage/nur/pages/DashboardPage.java
+/home/svitlanamykolaienko/Automation/Automation/src/main/java/stage/nur/base/CsvDataProvider.java
+/home/svitlanamykolaienko/Automation/Automation/src/main/java/stage/nur/base/BasePageObject.java
+/home/svitlanamykolaienko/Automation/Automation/src/main/java/stage/nur/base/BrowserFactory.java
+/home/svitlanamykolaienko/Automation/Automation/src/main/java/stage/nur/base/TestListener.java
+/home/svitlanamykolaienko/Automation/Automation/src/main/java/stage/nur/base/BaseTest.java
+/home/svitlanamykolaienko/Automation/Automation/src/main/java/stage/nur/pages/LogInPage.java

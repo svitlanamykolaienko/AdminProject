@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
-  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="com.dice.LoginTest">
+      <class name="stage.nur.FirstTest">
         <methods>
+          <include name="firstTestMethod"/>
           <include name="methodTearDown"/>
-          <include name="negativeTest"/>
           <include name="methodSetUp"/>
+          <include name="setUpClass"/>
         </methods>
-      </class> <!-- com.dice.LoginTest -->
+      </class> <!-- stage.nur.FirstTest -->
+      <class name="stage.nur.LogInTest">
+        <methods>
+          <include name="negativeTest"/>
+          <include name="methodTearDown"/>
+          <include name="methodSetUp"/>
+          <include name="positiveTest"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- stage.nur.LogInTest -->
+      <class name="stage.nur.SecondTest">
+        <methods>
+          <include name="secondTestMethod"/>
+          <include name="methodTearDown"/>
+          <include name="methodSetUp"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- stage.nur.SecondTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
