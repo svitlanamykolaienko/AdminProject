@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="FirstTestSuite" parallel="tests" thread-count="4">
+<suite name="FirstTestSuite" parallel="tests" thread-count="1">
     <listeners>
         <listener class-name="stage.nur.base.TestListener"></listener>
     </listeners>
@@ -21,8 +21,8 @@
         <parameter name="browser"  value="chrome"/>
         <groups>
             <run>
-                <include name="positive"></include>
-                <include name="negative"></include>
+                <exclude name="positive"></exclude>
+                <exclude name="negative"></exclude>
             </run>
         </groups>
         <classes>
