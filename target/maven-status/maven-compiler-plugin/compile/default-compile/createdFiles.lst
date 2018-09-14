@@ -1,0 +1,7 @@
+stage/nur/base/TestListener.class
+stage/nur/base/BrowserFactory.class
+stage/nur/pages/LogInPage.class
+stage/nur/pages/DashboardPage.class
+stage/nur/base/BaseTest.class
+stage/nur/base/BasePageObject.class
+stage/nur/base/CsvDataProvider.class
