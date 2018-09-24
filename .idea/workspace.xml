@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b39be930-a61a-46de-a39b-b7ce5c233f6e" name="Default" comment="" />
+    <list default="true" id="b39be930-a61a-46de-a39b-b7ce5c233f6e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/browserStack/BrowserStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="89" column="36" lean-forward="true" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+              <caret line="89" column="36" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -25,8 +28,20 @@
       <file leaf-file-name="LogInTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stage/nur/LogInTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="57" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="57" />
+            <state relative-caret-position="447">
+              <caret line="52" column="44" lean-forward="true" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BrowserStackTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/browserStack/BrowserStackTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,6 +61,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="BasePageObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/stage/nur/base/BasePageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BrowserFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/stage/nur/base/BrowserFactory.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,23 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/stage/nur/base/TestListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LogInPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/stage/nur/pages/LogInPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            <state relative-caret-position="252">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#781#782#0" expanded="true" />
@@ -84,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasePageObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/stage/nur/base/BasePageObject.java">
+      <file leaf-file-name="DashboardPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/stage/nur/pages/DashboardPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="210">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -108,20 +123,11 @@
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/stage/nur/base/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="221">
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogInTest_negativeTest.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/test_data/LogInTest_negativeTest.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -180,6 +186,8 @@
         <option value="$PROJECT_DIR$/src/test/resources/test_data/LogInTest_negativeTest.csv" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/stage/nur/base/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/browserStack/BrowserStackTest.java" />
       </list>
     </option>
   </component>
@@ -206,11 +214,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1853" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1985" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -244,7 +252,37 @@
               <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="browserStack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nur" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Automation" type="b2602c69:ProjectViewProjectNode" />
@@ -283,7 +321,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./home/svitlanamykolaienko/Automation/Automation/src/test/resources/testng.xml">
+  <component name="RunManager" selected="TestNG.BrowserStackTest.openSTM">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -351,6 +389,35 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+    </configuration>
+    <configuration name="BrowserStackTest.openSTM" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="browserStack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="browserStack" />
+      <option name="MAIN_CLASS_NAME" value="browserStack.BrowserStackTest" />
+      <option name="METHOD_NAME" value="openSTM" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
     <configuration name="LogInTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
@@ -439,35 +506,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="LogInTest.positiveTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.dice" />
-      <option name="MAIN_CLASS_NAME" value="com.dice.LogInTest" />
-      <option name="METHOD_NAME" value="positiveTest" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration name="/home/svitlanamykolaienko/Automation/Automation/src/test/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -516,18 +554,18 @@
     <list>
       <item itemvalue="Maven.Automation [test]" />
       <item itemvalue="TestNG./home/svitlanamykolaienko/Automation/Automation/src/test/resources/testng.xml" />
-      <item itemvalue="TestNG.LogInTest.positiveTest" />
       <item itemvalue="TestNG.LogInTest.negativeTest" />
       <item itemvalue="TestNG.LogInTest" />
       <item itemvalue="TestNG.LogInTest.positiveTest (1)" />
+      <item itemvalue="TestNG.BrowserStackTest.openSTM" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BrowserStackTest.openSTM" />
         <item itemvalue="TestNG./home/svitlanamykolaienko/Automation/Automation/src/test/resources/testng.xml" />
         <item itemvalue="TestNG.LogInTest.positiveTest (1)" />
         <item itemvalue="TestNG.LogInTest.negativeTest" />
         <item itemvalue="TestNG.LogInTest" />
-        <item itemvalue="TestNG.LogInTest.positiveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -545,27 +583,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_home_svitlanamykolaienko_Automation_Automation_src_test_resources_testng_xml - 2018.09.12 at 17h 16m 40s.xml">
-      <configuration name="/home/svitlanamykolaienko/Automation/Automation/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_svitlanamykolaienko_Automation_Automation_src_test_resources_testng_xml - 2018.09.12 at 17h 29m 46s.xml">
-      <configuration name="/home/svitlanamykolaienko/Automation/Automation/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_svitlanamykolaienko_Automation_Automation_src_test_resources_testng_xml - 2018.09.12 at 17h 33m 38s.xml">
-      <configuration name="/home/svitlanamykolaienko/Automation/Automation/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_svitlanamykolaienko_Automation_Automation_src_test_resources_testng_xml - 2018.09.12 at 17h 37m 49s.xml">
-      <configuration name="/home/svitlanamykolaienko/Automation/Automation/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_svitlanamykolaienko_Automation_Automation_src_test_resources_testng_xml - 2018.09.12 at 17h 40m 19s.xml">
-      <configuration name="/home/svitlanamykolaienko/Automation/Automation/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_svitlanamykolaienko_Automation_Automation_src_test_resources_testng_xml - 2018.09.12 at 17h 56m 25s.xml">
-      <configuration name="/home/svitlanamykolaienko/Automation/Automation/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_svitlanamykolaienko_Automation_Automation_src_test_resources_testng_xml - 2018.09.12 at 17h 58m 05s.xml">
-      <configuration name="/home/svitlanamykolaienko/Automation/Automation/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_home_svitlanamykolaienko_Automation_Automation_src_test_resources_testng_xml - 2018.09.12 at 17h 58m 57s.xml">
       <configuration name="/home/svitlanamykolaienko/Automation/Automation/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -574,6 +591,27 @@
     </history-entry>
     <history-entry file="_home_svitlanamykolaienko_Automation_Automation_src_test_resources_testng_xml - 2018.09.13 at 13h 02m 25s.xml">
       <configuration name="/home/svitlanamykolaienko/Automation/Automation/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BrowserStackTest_openSTM - 2018.09.21 at 16h 52m 34s.xml">
+      <configuration name="BrowserStackTest.openSTM" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BrowserStackTest_openSTM - 2018.09.21 at 16h 54m 36s.xml">
+      <configuration name="BrowserStackTest.openSTM" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BrowserStackTest_openSTM - 2018.09.21 at 17h 00m 33s.xml">
+      <configuration name="BrowserStackTest.openSTM" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BrowserStackTest_openSTM - 2018.09.21 at 17h 04m 34s.xml">
+      <configuration name="BrowserStackTest.openSTM" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BrowserStackTest_openSTM - 2018.09.21 at 17h 05m 16s.xml">
+      <configuration name="BrowserStackTest.openSTM" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BrowserStackTest_openSTM - 2018.09.21 at 17h 05m 43s.xml">
+      <configuration name="BrowserStackTest.openSTM" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BrowserStackTest_openSTM - 2018.09.21 at 17h 07m 21s.xml">
+      <configuration name="BrowserStackTest.openSTM" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -586,7 +624,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1853" height="1048" extended-state="1" />
+    <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32984293" />
@@ -595,13 +634,13 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.328911" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.328911" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34242094" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.348964" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34207764" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33578175" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26120642" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26091763" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -625,16 +664,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/stage/nur/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stage/nur/LogInTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -894,16 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/stage/nur/pages/DashboardPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stage/nur/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -924,52 +943,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/stage/nur/base/BasePageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/test_data/LogInTest_negativeTest.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/stage/nur/base/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stage/nur/LogInTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="57" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/stage/nur/pages/LogInPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -993,17 +970,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stage/nur/base/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stage/nur/pages/DashboardPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stage/nur/pages/LogInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stage/nur/base/BasePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stage/nur/LogInTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="52" column="44" lean-forward="true" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="89" column="36" lean-forward="true" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+          <caret line="89" column="36" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/browserStack/BrowserStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

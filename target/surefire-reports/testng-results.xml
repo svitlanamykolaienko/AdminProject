@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-09-14T15:25:04Z" name="FirstTestSuite" finished-at="2018-09-14T15:25:41Z" duration-ms="36722">
+  <suite name="FirstTestSuite" duration-ms="47773" started-at="2018-09-21T13:53:24Z" finished-at="2018-09-21T13:54:12Z">
     <groups>
       <group name="broken">
-        <method signature="LogInTest.negativeTest(java.util.Map)[pri:2, instance:stage.nur.LogInTest@574b560f]" name="negativeTest" class="stage.nur.LogInTest"/>
+        <method signature="LogInTest.negativeTest(java.util.Map)[pri:2, instance:stage.nur.LogInTest@4883b407]" name="negativeTest" class="stage.nur.LogInTest"/>
       </group> <!-- broken -->
       <group name="negative">
-        <method signature="LogInTest.negativeTest(java.util.Map)[pri:2, instance:stage.nur.LogInTest@574b560f]" name="negativeTest" class="stage.nur.LogInTest"/>
+        <method signature="LogInTest.negativeTest(java.util.Map)[pri:2, instance:stage.nur.LogInTest@4883b407]" name="negativeTest" class="stage.nur.LogInTest"/>
       </group> <!-- negative -->
       <group name="positive">
-        <method signature="LogInTest.positiveTest()[pri:1, instance:stage.nur.LogInTest@574b560f]" name="positiveTest" class="stage.nur.LogInTest"/>
+        <method signature="LogInTest.positiveTest()[pri:1, instance:stage.nur.LogInTest@4883b407]" name="positiveTest" class="stage.nur.LogInTest"/>
       </group> <!-- positive -->
     </groups>
-    <test started-at="2018-09-14T15:25:04Z" name="LogInTest-FF" finished-at="2018-09-14T15:25:41Z" duration-ms="36698">
+    <test name="LogInTest-FF" duration-ms="47747" started-at="2018-09-21T13:53:24Z" finished-at="2018-09-21T13:54:12Z">
       <class name="stage.nur.LogInTest">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:stage.nur.LogInTest@574b560f]" started-at="2018-09-14T15:25:04Z" name="setUpClass" finished-at="2018-09-14T15:25:04Z" duration-ms="130" status="PASS">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:stage.nur.LogInTest@4883b407]" name="setUpClass" is-config="true" duration-ms="113" started-at="2018-09-21T13:53:24Z" finished-at="2018-09-21T13:53:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3d1cfad4]]>
+                <![CDATA[org.testng.TestRunner@ff5b51f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="methodSetUp(java.lang.String)[pri:0, instance:stage.nur.LogInTest@574b560f]" started-at="2018-09-14T15:25:04Z" name="methodSetUp" finished-at="2018-09-14T15:25:10Z" duration-ms="5883" status="PASS">
+        <test-method status="PASS" signature="methodSetUp(java.lang.String)[pri:0, instance:stage.nur.LogInTest@4883b407]" name="methodSetUp" is-config="true" duration-ms="9396" started-at="2018-09-21T13:53:24Z" finished-at="2018-09-21T13:53:34Z">
           <params>
             <param index="0">
               <value>
@@ -38,15 +38,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodSetUp -->
-        <test-method signature="positiveTest()[pri:1, instance:stage.nur.LogInTest@574b560f]" started-at="2018-09-14T15:25:10Z" name="positiveTest" finished-at="2018-09-14T15:25:18Z" duration-ms="7956" status="PASS">
+        <test-method status="PASS" signature="positiveTest()[pri:1, instance:stage.nur.LogInTest@4883b407]" name="positiveTest" duration-ms="8403" started-at="2018-09-21T13:53:34Z" finished-at="2018-09-21T13:53:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positiveTest -->
-        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:stage.nur.LogInTest@574b560f]" started-at="2018-09-14T15:25:18Z" name="methodTearDown" finished-at="2018-09-14T15:25:19Z" duration-ms="807" status="PASS">
+        <test-method status="PASS" signature="methodTearDown()[pri:0, instance:stage.nur.LogInTest@4883b407]" name="methodTearDown" is-config="true" duration-ms="1527" started-at="2018-09-21T13:53:42Z" finished-at="2018-09-21T13:53:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTearDown -->
-        <test-method is-config="true" signature="methodSetUp(java.lang.String)[pri:0, instance:stage.nur.LogInTest@574b560f]" started-at="2018-09-14T15:25:19Z" name="methodSetUp" finished-at="2018-09-14T15:25:24Z" duration-ms="4932" status="PASS">
+        <test-method status="PASS" signature="methodSetUp(java.lang.String)[pri:0, instance:stage.nur.LogInTest@4883b407]" name="methodSetUp" is-config="true" duration-ms="7501" started-at="2018-09-21T13:53:44Z" finished-at="2018-09-21T13:53:51Z">
           <params>
             <param index="0">
               <value>
@@ -57,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodSetUp -->
-        <test-method signature="negativeTest(java.util.Map)[pri:2, instance:stage.nur.LogInTest@574b560f]" started-at="2018-09-14T15:25:24Z" name="negativeTest" data-provider="CsvDataProvider" finished-at="2018-09-14T15:25:29Z" duration-ms="5166" status="PASS">
+        <test-method status="PASS" signature="negativeTest(java.util.Map)[pri:2, instance:stage.nur.LogInTest@4883b407]" name="negativeTest" duration-ms="6138" started-at="2018-09-21T13:53:51Z" data-provider="CsvDataProvider" finished-at="2018-09-21T13:53:57Z">
           <params>
             <param index="0">
               <value>
@@ -68,11 +68,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeTest -->
-        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:stage.nur.LogInTest@574b560f]" started-at="2018-09-14T15:25:29Z" name="methodTearDown" finished-at="2018-09-14T15:25:30Z" duration-ms="936" status="PASS">
+        <test-method status="PASS" signature="methodTearDown()[pri:0, instance:stage.nur.LogInTest@4883b407]" name="methodTearDown" is-config="true" duration-ms="1321" started-at="2018-09-21T13:53:57Z" finished-at="2018-09-21T13:53:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTearDown -->
-        <test-method is-config="true" signature="methodSetUp(java.lang.String)[pri:0, instance:stage.nur.LogInTest@574b560f]" started-at="2018-09-14T15:25:30Z" name="methodSetUp" finished-at="2018-09-14T15:25:35Z" duration-ms="4744" status="PASS">
+        <test-method status="PASS" signature="methodSetUp(java.lang.String)[pri:0, instance:stage.nur.LogInTest@4883b407]" name="methodSetUp" is-config="true" duration-ms="6315" started-at="2018-09-21T13:53:59Z" finished-at="2018-09-21T13:54:05Z">
           <params>
             <param index="0">
               <value>
@@ -83,7 +83,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodSetUp -->
-        <test-method signature="negativeTest(java.util.Map)[pri:2, instance:stage.nur.LogInTest@574b560f]" started-at="2018-09-14T15:25:35Z" name="negativeTest" data-provider="CsvDataProvider" finished-at="2018-09-14T15:25:40Z" duration-ms="5182" status="PASS">
+        <test-method status="PASS" signature="negativeTest(java.util.Map)[pri:2, instance:stage.nur.LogInTest@4883b407]" name="negativeTest" duration-ms="5782" started-at="2018-09-21T13:54:05Z" data-provider="CsvDataProvider" finished-at="2018-09-21T13:54:11Z">
           <params>
             <param index="0">
               <value>
@@ -94,13 +94,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeTest -->
-        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:stage.nur.LogInTest@574b560f]" started-at="2018-09-14T15:25:40Z" name="methodTearDown" finished-at="2018-09-14T15:25:41Z" duration-ms="926" status="PASS">
+        <test-method status="PASS" signature="methodTearDown()[pri:0, instance:stage.nur.LogInTest@4883b407]" name="methodTearDown" is-config="true" duration-ms="1209" started-at="2018-09-21T13:54:11Z" finished-at="2018-09-21T13:54:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTearDown -->
       </class> <!-- stage.nur.LogInTest -->
     </test> <!-- LogInTest-FF -->
-    <test started-at="2018-09-14T15:25:41Z" name="LogInTest-CH" finished-at="2018-09-14T15:25:41Z" duration-ms="0">
+    <test name="LogInTest-CH" duration-ms="0" started-at="2018-09-21T13:54:12Z" finished-at="2018-09-21T13:54:12Z">
     </test> <!-- LogInTest-CH -->
   </suite> <!-- FirstTestSuite -->
 </testng-results>
