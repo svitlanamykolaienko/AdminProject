@@ -10,20 +10,24 @@ public class BaseTest {
     protected Logger log;
 
 
+    @Parameters({ "browser" })
     @BeforeClass(alwaysRun = true)
-    protected void setUpClass(ITestContext ctx){
+    protected void setUpClass(ITestContext ctx, @Optional("firefox") String browser){
         String testName = ctx.getCurrentXmlTest().getName();
         log = Logger.getLogger(testName);
-    }
-
-    @Parameters({ "browser" })
-    @BeforeMethod(alwaysRun = true)
-    protected void methodSetUp(@Optional("firefox") String browser){
         log.info("Method Set Up");
         driver = BrowserFactory.getDriver(browser,log);
-        }
 
-    @AfterMethod(alwaysRun = true)
+    }
+
+//    @Parameters({ "browser" })
+//    @BeforeMethod(alwaysRun = true)
+//    protected void methodSetUp(@Optional("firefox") String browser){
+//
+//
+//        }
+
+    @AfterClass(alwaysRun = true)
     protected void methodTearDown(){
         log.info("Method Tear Down");
         driver.quit();

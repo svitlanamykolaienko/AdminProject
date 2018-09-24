@@ -29,15 +29,15 @@
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-FirstTestSuite">
+            <a href="#" panel-name="suite-FirstTestSuite" class="navigator-link">
               <span class="suite-name border-passed">FirstTestSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-FirstTestSuite">
+                  <a href="#" panel-name="test-xml-FirstTestSuite" class="navigator-link ">
                     <span>testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-FirstTestSuite">
-                    <span class="test-stats">2 tests</span>
+                  <a href="#" panel-name="testlist-FirstTestSuite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-FirstTestSuite">
+                  <a href="#" panel-name="group-FirstTestSuite" class="navigator-link ">
                     <span>3 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-FirstTestSuite">
+                  <a href="#" panel-name="times-FirstTestSuite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-FirstTestSuite">
+                  <a href="#" panel-name="reporter-FirstTestSuite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-FirstTestSuite">
+                  <a href="#" panel-name="ignored-methods-FirstTestSuite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-FirstTestSuite">
+                  <a href="#" panel-name="chronological-FirstTestSuite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -101,18 +101,18 @@
                     </span>
                     <div class="method-list-content passed suite-FirstTestSuite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-FirstTestSuite" title="stage.nur.LogInTest" hash-for-method="negativeTest({no=2, description=invalid password, password=P@sword5, email=admin@gmail.com})">negativeTest({no=2, description=invalid password, password=P@sword5, email=admin@gmail.com})</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirstTestSuite" title="stage.nur.LogInTest" class="method navigator-link" hash-for-method="negativeTest({no=2, description=invalid password, password=P@sword5, email=admin@gmail.com})">negativeTest({no=2, description=invalid password, password=P@sword5, email=admin@gmail.com})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-FirstTestSuite" title="stage.nur.LogInTest" hash-for-method="negativeTest({no=1, description=invalid email, password=P@sword1, email=admin@gmail.net})">negativeTest({no=1, description=invalid email, password=P@sword1, email=admin@gmail.net})</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirstTestSuite" title="stage.nur.LogInTest" class="method navigator-link" hash-for-method="negativeTest({no=1, description=invalid email, password=P@sword1, email=admin@gmail.net})">negativeTest({no=1, description=invalid email, password=P@sword1, email=admin@gmail.net})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-FirstTestSuite" title="stage.nur.LogInTest" hash-for-method="positiveTest">positiveTest</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FirstTestSuite" title="stage.nur.LogInTest" class="method navigator-link" hash-for-method="positiveTest">positiveTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-FirstTestSuite -->
@@ -167,23 +167,23 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;FirstTestSuite&quot; parallel=&quot;tests&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;FirstTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;stage.nur.base.TestListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;LogInTest-FF&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;LogInTest-FF&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;groups&gt;
       &lt;run&gt;
-        &lt;include name=&quot;positive&quot;/&gt;
-        &lt;include name=&quot;negative&quot;/&gt;
+        &lt;exclude name=&quot;positive&quot;/&gt;
+        &lt;exclude name=&quot;negative&quot;/&gt;
       &lt;/run&gt;
     &lt;/groups&gt;
     &lt;classes&gt;
       &lt;class name=&quot;stage.nur.LogInTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- LogInTest-FF --&gt;
-  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;LogInTest-CH&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;LogInTest-CH&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;groups&gt;
       &lt;run&gt;
@@ -195,6 +195,18 @@
       &lt;class name=&quot;stage.nur.LogInTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- LogInTest-CH --&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;LogInTest-RemoteChrome&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;remote&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;positive&quot;/&gt;
+        &lt;include name=&quot;negative&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;stage.nur.LogInTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LogInTest-RemoteChrome --&gt;
 &lt;/suite&gt; &lt;!-- FirstTestSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -210,6 +222,9 @@
               </li>
               <li>
                 <span class="test-name">LogInTest-CH (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LogInTest-RemoteChrome (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -263,20 +278,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'positiveTest')
 data.setCell(0, 2, 'stage.nur.LogInTest')
-data.setCell(0, 3, 8403);
+data.setCell(0, 3, 5323);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'negativeTest')
 data.setCell(1, 2, 'stage.nur.LogInTest')
-data.setCell(1, 3, 6138);
+data.setCell(1, 3, 2766);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'negativeTest')
 data.setCell(2, 2, 'stage.nur.LogInTest')
-data.setCell(2, 3, 5782);
+data.setCell(2, 3, 1843);
 window.suiteTableData['FirstTestSuite']= { tableData: data, tableDiv: 'times-div-FirstTestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-FirstTestSuite">
               </div> <!-- times-div-FirstTestSuite -->
             </div> <!-- times-div -->
@@ -291,13 +306,17 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-FirstTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">stage.nur.LogInTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">negativeTest</span>
+                <br/>
+                <span class="ignored-method-name">negativeTest</span>
+                <br/>
+                <span class="ignored-method-name">positiveTest</span>
                 <br/>
                 <span class="ignored-method-name">positiveTest</span>
                 <br/>
@@ -313,45 +332,25 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">stage.nur.LogInTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@ff5b51f)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@62230c58, remote)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">methodSetUp(firefox)</span>
-                <span class="method-start">127 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">positiveTest</span>
-                <span class="method-start">9523 ms</span>
+                <span class="method-start">5318 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">methodTearDown</span>
-                <span class="method-start">17927 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">methodSetUp(firefox)</span>
-                <span class="method-start">19464 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativeTest({no=1, description=invalid email, password=P@sword1, email=admin@gmail.net})</span>
-                <span class="method-start">26965 ms</span>
+                <span class="method-start">10659 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">methodTearDown</span>
-                <span class="method-start">33103 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">methodSetUp(firefox)</span>
-                <span class="method-start">34425 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativeTest({no=2, description=invalid password, password=P@sword5, email=admin@gmail.com})</span>
-                <span class="method-start">40740 ms</span>
+                <span class="method-start">12503 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
+              <div class="configuration-class after">
                 <span class="method-name">methodTearDown</span>
-                <span class="method-start">46522 ms</span>
-              </div> <!-- configuration-method after -->
+                <span class="method-start">15269 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

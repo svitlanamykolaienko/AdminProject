@@ -8,8 +8,8 @@
         <parameter name="browser"  value="firefox"/>
         <groups>
             <run>
-                <include name="positive"></include>
-                <include name="negative"></include>
+                <exclude name="positive"></exclude>
+                <exclude name="negative"></exclude>
             </run>
         </groups>
         <classes>
@@ -30,5 +30,19 @@
             </class>
         </classes>
     </test>
+    <test name="LogInTest-RemoteChrome">
+        <parameter name="browser"  value="remote"/>
+        <groups>
+            <run>
+                <include name="positive"></include>
+                <include name="negative"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="stage.nur.LogInTest">
+            </class>
+        </classes>
+    </test>
+
 
 </suite>
