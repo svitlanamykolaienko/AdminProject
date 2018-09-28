@@ -6,17 +6,28 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class LogInPage extends BasePageObject<LogInPage> {
-    private static final String URL = "https://admin.nur.stage.systools.pro/login";
+    private static String URL;
+
+
 
     private By emailField = By.xpath("//input[@name='email']");
     private By passwordField = By.xpath("//input[@name='password']");
     private By signInButton = By.xpath("//button[@type = 'submit']");
     private By errorMessage = By.xpath("//div[@class = 'errors__errors_1UK5p animation__fadeIn_3l1Lz']");
-    //private By errorMessage = By.xpath("//span[@data-automation-id=\"login-failure-help-message\"]");
 
 
     public LogInPage(WebDriver driver, Logger log){
         super(driver, log);
+        setUrl();
+    }
+
+    private void setUrl(){
+     if (System.getProperty("url")!=null){
+         URL = System.getProperty("url");
+     }else{
+         URL = "https://admin.nur.stage.systools.pro";
+     }
+
     }
 
     public void openLogInPage(){

@@ -17,15 +17,7 @@ public class BaseTest {
         log = Logger.getLogger(testName);
         log.info("Method Set Up");
         driver = BrowserFactory.getDriver(browser,log);
-
     }
-
-//    @Parameters({ "browser" })
-//    @BeforeMethod(alwaysRun = true)
-//    protected void methodSetUp(@Optional("firefox") String browser){
-//
-//
-//        }
 
     @AfterClass(alwaysRun = true)
     protected void methodTearDown(){
