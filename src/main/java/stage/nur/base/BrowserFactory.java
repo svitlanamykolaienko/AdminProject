@@ -1,6 +1,7 @@
 package stage.nur.base;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
@@ -29,10 +30,7 @@ public class BrowserFactory {
                 driver = new ChromeDriver();
                 break;
             case "remote":
-                DesiredCapabilities capability = new DesiredCapabilities();
-                capability.setPlatform(Platform.MAC);
-                capability.setBrowserName("chrome");
-                capability.setVersion("69");
+                DesiredCapabilities cap = new DesiredCapabilities();
 
                 URL browserStackURL = null;
                 try {
@@ -40,13 +38,45 @@ public class BrowserFactory {
                 } catch (MalformedURLException e) {
                     e.printStackTrace();
                 }
-                driver = new RemoteWebDriver(browserStackURL, capability);
+                driver = new RemoteWebDriver(browserStackURL, cap);
                 break;
 
              default:
                 System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver");
                 driver = new FirefoxDriver();
                  break;
+        }
+        driver.manage().window().setSize(new Dimension(1280, 800));
+        return driver;
+    }
+
+    public static WebDriver getDriver(String browser, Logger log, Capabilities capabilities) {
+        WebDriver driver;
+        log.info("Starting " + browser + " ");
+        switch(browser){
+            case "firefox":
+                System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver");
+                driver = new FirefoxDriver();
+                break;
+            case "chrome":
+                System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
+                driver = new ChromeDriver();
+                break;
+            case "remote":
+
+                URL browserStackURL = null;
+                try {
+                    browserStackURL = new URL(URL);
+                } catch (MalformedURLException e) {
+                    e.printStackTrace();
+                }
+                driver = new RemoteWebDriver(browserStackURL, capabilities);
+                break;
+
+            default:
+                System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver");
+                driver = new FirefoxDriver();
+                break;
         }
         driver.manage().window().setSize(new Dimension(1280, 800));
         return driver;

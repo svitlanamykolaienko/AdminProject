@@ -30,7 +30,7 @@
             </class>
         </classes>
     </test>
-    <test name="LogInTest-RemoteChrome">
+    <test name="LogInTest-Remote">
         <parameter name="browser"  value="remote"/>
         <groups>
             <run>

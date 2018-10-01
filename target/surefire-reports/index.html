@@ -195,7 +195,7 @@
       &lt;class name=&quot;stage.nur.LogInTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- LogInTest-CH --&gt;
-  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;LogInTest-RemoteChrome&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;LogInTest-Remote&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;remote&quot;/&gt;
     &lt;groups&gt;
       &lt;run&gt;
@@ -206,7 +206,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;stage.nur.LogInTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- LogInTest-RemoteChrome --&gt;
+  &lt;/test&gt; &lt;!-- LogInTest-Remote --&gt;
 &lt;/suite&gt; &lt;!-- FirstTestSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -224,7 +224,7 @@
                 <span class="test-name">LogInTest-CH (1 class)</span>
               </li>
               <li>
-                <span class="test-name">LogInTest-RemoteChrome (1 class)</span>
+                <span class="test-name">LogInTest-Remote (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -278,20 +278,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'positiveTest')
 data.setCell(0, 2, 'stage.nur.LogInTest')
-data.setCell(0, 3, 6473);
+data.setCell(0, 3, 6181);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'negativeTest')
 data.setCell(1, 2, 'stage.nur.LogInTest')
-data.setCell(1, 3, 2489);
+data.setCell(1, 3, 3420);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'negativeTest')
 data.setCell(2, 2, 'stage.nur.LogInTest')
-data.setCell(2, 3, 2418);
+data.setCell(2, 3, 3250);
 window.suiteTableData['FirstTestSuite']= { tableData: data, tableDiv: 'times-div-FirstTestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-FirstTestSuite">
               </div> <!-- times-div-FirstTestSuite -->
             </div> <!-- times-div -->
@@ -332,24 +332,24 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">stage.nur.LogInTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@79da8dc5, remote)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@732c2a62, remote)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">positiveTest</span>
-                <span class="method-start">5049 ms</span>
+                <span class="method-start">5740 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">negativeTest({no=1, description=invalid email, password=P@sword1, email=admin@gmail.net})</span>
-                <span class="method-start">11530 ms</span>
+                <span class="method-start">11944 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">negativeTest({no=2, description=invalid password, password=P@sword5, email=admin@gmail.com})</span>
-                <span class="method-start">13949 ms</span>
+                <span class="method-start">15197 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">methodTearDown</span>
-                <span class="method-start">16439 ms</span>
+                <span class="method-start">18618 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

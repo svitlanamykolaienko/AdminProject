@@ -7,9 +7,6 @@ import org.openqa.selenium.WebDriver;
 
 public class LogInPage extends BasePageObject<LogInPage> {
     private static String URL;
-
-
-
     private By emailField = By.xpath("//input[@name='email']");
     private By passwordField = By.xpath("//input[@name='password']");
     private By signInButton = By.xpath("//button[@type = 'submit']");
